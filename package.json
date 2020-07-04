@@ -1,17 +1,21 @@
 {
-  "name": "node-boiler",
-  "version": "1.0.0",
-  "description": "Simple boilerplate for js/node apps",
-  "main": "index.js",
-  "scripts": {
-    "build": "rollup -c", 
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "pngwn <hello@pngwn.io>",
-  "license": "MIT",
-  "dependencies": {
-    "@rollup/plugin-commonjs": "^13.0.0",
-    "@rollup/plugin-node-resolve": "^8.1.0",
-    "rollup": "^2.18.2"
-  }
+	"name": "node-boiler",
+	"version": "1.0.0",
+	"description": "Simple boilerplate for js/node apps",
+	"main": "index.js",
+	"scripts": {
+		"build": "rollup -c",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "pngwn <hello@pngwn.io>",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^13.0.0",
+		"@rollup/plugin-node-resolve": "^8.1.0",
+		"eslint": "^7.4.0",
+		"eslint-config-prettier": "^6.11.0",
+		"prettier": "^2.0.5",
+		"rollup": "^2.18.2"
+	}
 }
