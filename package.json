@@ -4,8 +4,14 @@
   "description": "Simple boilerplate for js/node apps",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pngwn <hello@pngwn.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "rollup": "^2.18.2"
+  }
 }
