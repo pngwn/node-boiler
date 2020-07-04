@@ -14,7 +14,9 @@
 		"@rollup/plugin-commonjs": "^13.0.0",
 		"@rollup/plugin-node-resolve": "^8.1.0",
 		"eslint": "^7.4.0",
+		"eslint-config-google": "^0.14.0",
 		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-snakecasejs": "^2.2.0",
 		"prettier": "^2.0.5",
 		"rollup": "^2.18.2"
 	}
