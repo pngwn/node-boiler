@@ -1,0 +1,11 @@
+{
+  "name": "node-boiler",
+  "version": "1.0.0",
+  "description": "Simple boilerplate for js/node apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pngwn <hello@pngwn.io>",
+  "license": "MIT"
+}
